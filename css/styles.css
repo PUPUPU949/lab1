@@ -1,0 +1,200 @@
+body {
+    background-color: lightgray;
+}
+#main-page p {
+    margin-bottom: 20px;
+}
+nav {
+    float:right;
+}
+a {
+    margin: 0 20px;
+    font-family: Ink Free;
+    color:black;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+.photo{
+    display: block;      /* превращаем картинку в блочный элемент */
+    margin: 0 auto;      /* автоматические отступы слева и справа   КАЮСЬ,УКРАЛ ИЗ ИНЕТА ЭТИ СТРОЧКИ С ПОЗИЦИОНИРОВАНИЕМ */
+    max-width: 80%;      /* ограничим ширину, чтобы не растягивалась */
+    height: auto;
+}
+.center{
+    text-align: center;
+}
+.center-up{
+    text-align: center;
+    margin-top:50px;
+}
+
+
+.indent40up {
+    margin-top:40px;
+}
+
+.indent40dwn {
+    margin-bottom:40px;
+}
+.indent30up {
+    margin-top:30px;
+}
+.indent30dwn {
+    margin-bottom:30px;
+}
+
+.indent20up {
+    margin-top:20px;
+}
+
+.indent20dwn {
+    margin-bottom:20px;
+}
+
+.font20 {
+        font-size: 20px;
+}
+iframe {
+    float:left;
+    width: 100%;
+}
+
+ol li::marker {
+    font-weight: bold;
+}
+
+.card {
+    background-color: #fff;       /* белый фон */
+    padding: 20px;                /* отступы внутри */
+    margin: 20px auto;            /* отступы снаружи */
+    max-width: 900px;             /* ограничение по ширине */
+    border-radius: 10px;          /* скруглённые углы */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* лёгкая тень */
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between; /* логотип слева, меню справа */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;         /* тёмный фон */
+    color: white;
+}
+
+header img.logo {
+    max-height: 80px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00; /* подсветка при наведении */
+}
+
+footer {
+    background-color: #34495e; /* зелёный */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+
+
+
+
+#contact-page main {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+/* карточка формы */
+#contact-page .contact-card {
+    background: #fff;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+/* заголовок и подзаголовок */
+#contact-page h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#contact-page .lead {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* поля формы */
+#contact-page label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+#contact-page input,
+#contact-page textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+#contact-page input:focus,
+#contact-page textarea:focus {
+    border-color: #2c3e50;
+    outline: none;
+}
+
+/* текстовое поле */
+#contact-page textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* кнопки */
+#contact-page .controls {
+    text-align: right;
+}
+
+#contact-page button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#contact-page button[type="submit"] {
+    background-color: #2c3e50;
+    color: white;
+}
+
+#contact-page button[type="reset"] {
+    background-color: #eee;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
