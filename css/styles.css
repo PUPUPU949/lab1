@@ -193,8 +193,65 @@ footer {
 }
 
 
+h2::before {
+    content: "★ ";
+    color: gold;
+}
 
 
+a:link { color: blue; }
+a:visited { color: red; }
+a:hover { color: purple; }
+a:active { color: green; }
+
+input:focus { border-color: orange; }
+input:required { border: 2px solid red; }
+li:first-child { font-weight: bold; }
+li:nth-child(2) { color: darkblue; }
+p:not(.center) { text-indent: 20px; }
+
+/* потомки */
+.card p { color: #333; }
+
+/* дочерние */
+nav > a { padding: 10px; }
+
+/* соседние */
+h2 + p { font-style: italic; }
+
+/* общие */
+h2 ~ p { color: #555; }
 
 
+/* по тегу */
+p { line-height: 1.6; }
 
+/* по классу */
+.card { margin: 20px auto; }
+
+/* по id */
+#contact-page { background: #f9f9f9; }
+
+/* универсальный */
+* { box-sizing: border-box; }
+
+/* по атрибуту */
+input[type="email"] { border: 2px solid blue; }
+
+
+/* Липкая шапка */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Абсолютное позиционирование подписи поверх картинки */
+.figure-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 5px;
+}
